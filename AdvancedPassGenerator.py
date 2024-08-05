@@ -25,7 +25,7 @@ def main():
         raise ValueError("Password length must be at least 8 characters.")
       break
     except ValueError:
-      print("Invalid input. Please enter a positive integer.")
+      print("Invalid input! Please enter a positive integer.")
 
   include_lowercase = input("Include lowercase letters? (y/n): ").lower() == 'y'
   include_uppercase = input("Include uppercase letters? (y/n): ").lower() == 'y'
