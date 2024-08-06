@@ -57,3 +57,39 @@ Finally, the category based on the BMI is printed.
 
 7]Main Execution Block</h3><br>
 <br>
+<br>
+<h3>CLI Weather App</h3>
+<p>a CLI weather app in Python that fetches and displays current weather data for a user-specified location (e.g., Bengaluru, IN) using a weather API. Show basic information such as temperature, humidity, and weather conditions.</p><br>
+<h4>Understanding the Requirements:</h4>
+<h4>API Integration:</h4>
+<p>We'll use OpenWeatherMap in this task. We'll need to sign up for an API key.
+1. User Input: We'll prompt the user for a city name followed by comma and first two letter of the Country.
+2. Data Fetching: We'll make an API request to fetch weather data.
+3. Data Parsing: We'll extract relevant information from the JSON response.
+4. Output Formatting: We'll display the weather information in a user-friendly format.</p>
+
+<h4>Code Explanation:</h4>
+<ol>
+  <li>get_weather function:<br>
+Takes a city name as input.<br>
+Constructs the API URL using the city name and API key.</li>
+ <li>Import necessary libraries: requests for making API requests and json for parsing JSON data.<br>Makes a GET request to the API.<br>
+Parses the JSON response and returns the data.<br>
+Includes error handling for potential exceptions.</li>
+<li>display_weather function:<br>
+Takes weather data as input.<br>
+Extracts temperature, humidity, and weather description from the data.<br>
+Prints the extracted information in a formatted way.</li>
+<li>display_weather function:
+Takes weather data as input.
+Extracts temperature, humidity, and weather description from the data.
+Prints the extracted information in a formatted way.</li>
+<li>main function:
+Prompts the user for a city name.
+Calls get_weather to fetch data.
+Calls display_weather to display the results.
+</li>
+</ol>
+
+
+
