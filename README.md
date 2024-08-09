@@ -90,6 +90,10 @@ Calls get_weather to fetch data.
 Calls display_weather to display the results.
 </li>
 </ol>
-
-
+<br>
+<h2>Chat Application</h2>
+<p>Understanding the Components</p>
+>>Server: Listens for incoming connections, handles message routing, and broadcasts messages to connected clients.
+<br>
+>>Client: Connects to the server, sends messages, and receives messages from other clients.
 
